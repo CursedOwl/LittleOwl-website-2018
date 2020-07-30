@@ -1,0 +1,179 @@
+html {
+    height: 100%;
+}
+
+body{
+	background-image : url(images/the_accueil.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%;
+	background-attachment: fixed;
+	margin:0;
+    min-height: 100%;
+}
+h1{
+	font-family : 'DancingScriptBold';
+	text-align : center;
+	font-size : 6em;
+	color : white;
+}
+
+.link-menu{
+	overflow: hidden;
+	display : block;
+	text-decoration : none;
+	color : black;
+	background-color : rgba(255,255,255,0.6);
+	margin : 2%;
+
+}
+.link-menu:hover, .menu li .link-menu:focus, .menu li .link-menu:active{
+	background : rgba(255, 255, 255, 0.8);
+	color : black;
+}
+
+h2{
+	text-align: center;
+	font-family: 'KaushanScriptRegular';
+	padding : 0;
+
+}
+
+.link-menu .img-menu {
+	float: left;
+}
+
+.link-menu .text-menu{
+	float: right;
+	font-family: 'ButlerRegular';
+	padding : 0;
+}
+
+.link-menu p{
+	overflow: hidden;
+	float: right;
+	width: 85%;
+	margin: 0;
+}
+
+.histoire{
+	display : block;
+	text-decoration : none;
+	color : black;
+	background-color : rgba(255,255,255,0.6);
+	margin : 2%;
+	overflow : hidden;
+}
+.histoire .hist-img{
+	float : left;
+	border: 3px solid #000;
+	margin: 10px;
+	margin-bottom: 0;
+}
+.histoire h2{
+	text-align : center;
+	font-family: 'KaushanScriptRegular';
+	font-size : 3em;
+}
+.histoire .the{
+	float : right;
+	overflow : hidden;
+	font-family: 'ButlerRegular';
+	padding : 0;
+	margin-bottom: 10px;
+	width: 75%;
+	margin-right: 10px;
+}
+h3{
+	font-family: 'KaushanScriptRegular';
+	font-size : 1.5em;
+	margin : 0 8%;
+	padding : 1%;
+}
+
+ul{
+	margin : 0 11%;
+	font-family: 'ButlerRegular';
+	font-weight: normal;
+	font-style: normal;
+	list-style-image : url(images/feuille.png);
+}
+
+.ceremonie{
+	display : block;
+	text-decoration : none;
+	color : black;
+	background-color : rgba(255,255,255,0.6);
+	margin : 2%;
+	overflow : hidden;
+}
+
+.ceremonie h2{
+	text-align : center;
+	font-family: 'KaushanScriptRegular';
+	font-size : 3em;
+}
+
+.ceremonie .the2{
+	overflow : hidden;
+	font-family: 'ButlerRegular';
+}
+
+.the2 p{
+	margin-right: 20px;
+	margin-left: 15px;
+}
+
+.histoire .troisieme{
+	margin-left: 25%;
+	width: 60%;
+}
+
+.histoire .the3{
+	overflow : hidden;
+	font-family: 'ButlerRegular';
+	padding : 0;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 15px;
+	margin-right: 20px;
+}
+
+.video { 
+	overflow:hidden; 
+	padding-bottom:57%;
+	position:relative;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height:0;
+}
+	
+.video iframe {
+	left:0; 
+	top:0; 
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+.drapeau{
+	display : inline-block;
+	margin: 30px;
+}
+
+.drapeau .drapeau-img:hover {
+	position : relative;
+	display : inline-block;
+	transform : scale(1.5);
+	filter: brightness(30%);
+}
+.drapeau:hover .texte p{
+	display : block;
+	color : white;
+}
+.drapeau .texte p{
+	position: absolute;
+	width: 50%;
+	margin: auto;
+	display : none;
+	font-weight : bold;
+}
